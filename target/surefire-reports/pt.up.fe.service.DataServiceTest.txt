@@ -1,0 +1,103 @@
+-------------------------------------------------------------------------------
+Test set: pt.up.fe.service.DataServiceTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 11, Errors: 0, Skipped: 0, Time elapsed: 0.159 s <<< FAILURE! -- in pt.up.fe.service.DataServiceTest
+pt.up.fe.service.DataServiceTest.ensureThatFellowsStayASmallGroup -- Time elapsed: 0.061 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: not yet implemented
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at pt.up.fe.service.DataServiceTest.ensureThatFellowsStayASmallGroup(DataServiceTest.java:126)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+pt.up.fe.service.DataServiceTest.ensureThatOneRingBearerIsPartOfTheFellowship -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: not yet implemented
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at pt.up.fe.service.DataServiceTest.ensureThatOneRingBearerIsPartOfTheFellowship(DataServiceTest.java:90)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+pt.up.fe.service.DataServiceTest.ensureFellowShipCharacterAccessByNameWorksGivenCorrectNameIsGiven -- Time elapsed: 0.004 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: not yet implemented
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at pt.up.fe.service.DataServiceTest.ensureFellowShipCharacterAccessByNameWorksGivenCorrectNameIsGiven(DataServiceTest.java:58)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+pt.up.fe.service.DataServiceTest.ensureOrdering -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: not yet implemented
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at pt.up.fe.service.DataServiceTest.ensureOrdering(DataServiceTest.java:107)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+pt.up.fe.service.DataServiceTest.ensureAge -- Time elapsed: 0.003 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: not yet implemented
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at pt.up.fe.service.DataServiceTest.ensureAge(DataServiceTest.java:116)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+pt.up.fe.service.DataServiceTest.ensureThatEqualsWorksForCharaters -- Time elapsed: 0.003 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: not yet implemented
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at pt.up.fe.service.DataServiceTest.ensureThatEqualsWorksForCharaters(DataServiceTest.java:69)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+pt.up.fe.service.DataServiceTest.ensureFellowShipCharacterAccessByNameReturnsNullForUnknownCharacter -- Time elapsed: 0.009 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: not yet implemented
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at pt.up.fe.service.DataServiceTest.ensureFellowShipCharacterAccessByNameReturnsNullForUnknownCharacter(DataServiceTest.java:51)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+pt.up.fe.service.DataServiceTest.checkInheritance -- Time elapsed: 0.004 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: not yet implemented
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at pt.up.fe.service.DataServiceTest.checkInheritance(DataServiceTest.java:76)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+pt.up.fe.service.DataServiceTest.ensureThatInitializationOfTolkeinCharactorsWorks -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: not yet implemented
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at pt.up.fe.service.DataServiceTest.ensureThatInitializationOfTolkeinCharactorsWorks(DataServiceTest.java:44)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+pt.up.fe.service.DataServiceTest.ensureServiceDoesNotRunToLong -- Time elapsed: 0.003 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: not yet implemented
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at pt.up.fe.service.DataServiceTest.ensureServiceDoesNotRunToLong(DataServiceTest.java:133)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+pt.up.fe.service.DataServiceTest.ensureThatFrodoAndGandalfArePartOfTheFellowsip -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: not yet implemented
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at pt.up.fe.service.DataServiceTest.ensureThatFrodoAndGandalfArePartOfTheFellowsip(DataServiceTest.java:83)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

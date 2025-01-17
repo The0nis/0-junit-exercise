@@ -1,0 +1,58 @@
+-------------------------------------------------------------------------------
+Test set: pt.up.fe.util.EmailValidatorTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.036 s <<< FAILURE! -- in pt.up.fe.util.EmailValidatorTest
+pt.up.fe.util.EmailValidatorTest.emailValidator_InvalidEmailNoTld_ReturnsFalse -- Time elapsed: 0.003 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: not yet implemented
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at pt.up.fe.util.EmailValidatorTest.emailValidator_InvalidEmailNoTld_ReturnsFalse(EmailValidatorTest.java:28)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+pt.up.fe.util.EmailValidatorTest.emailValidator_NullEmail_ReturnsFalse -- Time elapsed: 0.003 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: not yet implemented
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at pt.up.fe.util.EmailValidatorTest.emailValidator_NullEmail_ReturnsFalse(EmailValidatorTest.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+pt.up.fe.util.EmailValidatorTest.emailValidator_CorrectEmailSubDomain_ReturnsTrue -- Time elapsed: 0.003 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: not yet implemented
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at pt.up.fe.util.EmailValidatorTest.emailValidator_CorrectEmailSubDomain_ReturnsTrue(EmailValidatorTest.java:21)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+pt.up.fe.util.EmailValidatorTest.emailValidator_InvalidEmailDoubleDot_ReturnsFalse -- Time elapsed: 0.003 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: not yet implemented
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at pt.up.fe.util.EmailValidatorTest.emailValidator_InvalidEmailDoubleDot_ReturnsFalse(EmailValidatorTest.java:34)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+pt.up.fe.util.EmailValidatorTest.emailValidator_InvalidEmailNoUsername_ReturnsFalse -- Time elapsed: 0.003 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: not yet implemented
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at pt.up.fe.util.EmailValidatorTest.emailValidator_InvalidEmailNoUsername_ReturnsFalse(EmailValidatorTest.java:40)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+pt.up.fe.util.EmailValidatorTest.emailValidator_EmptyString_ReturnsFalse -- Time elapsed: 0.004 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: not yet implemented
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at pt.up.fe.util.EmailValidatorTest.emailValidator_EmptyString_ReturnsFalse(EmailValidatorTest.java:46)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
